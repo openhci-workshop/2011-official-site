@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registration - OpenHCI 2011</title>
+    <!--IE -->
+    <!--[if lte IE 8]>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <script src="/js/ie/html5.js" type="text/javascript"></script>
+    <![endif]-->
+    <!-- Facebook share image -->
+    <link rel="image_src" href="images/logofb.png">
+    <!-- Google Web Font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:light,regular,regularitalic,bold,bolditalic,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:regular,regularitalic,600,bold,bolditalic' rel='stylesheet' type='text/css'>
+    <!-- jQuery 1.6 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" type="text/javascript"></script>
+    <!-- {% block 3rdLib %}{% endblock %} -->
+    <!-- Reset css properties -->
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <!-- General CSS -->
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <!-- General JS -->
+    <script src="js/base.js" type="text/javascript"></script>
+    <link href="css/registration.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/registration.js"></script>
+</head>
+<body>
+    <header>
+        <div id="siteName">
+            <div style="float: left;"><img style="margin: 0; margin-right: 5px;
+                 height: 55px;" src="images/logo.png" alt="OpenHCI 2011"></div>
+            <div style="float: left;">
+                <div id="siteTitle">OpenHCI 2011</div>
+                <div id="siteSubtitle">The 2nd Student Organized Workshop on Human-Computer Interaction</div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="navAndInfo">
+	        <div id="user"><!-- Sign In --></div>
+	        <nav id="mainNav">
+                <a class="navItem" id="navMain" href="./index.html">Home</a>
+                <a class="navItem" id="navIntroAndGoals" href="introAndGoals.html">Intro & Goals</a>
+                <a class="navItem" id="navProgram" href="program.html">Program</a>
+                 <a class="navItem" id="navRegistration" href="registration.html">Registration</a>
+                 <a class="navItem" id="navPassport" href="passport.html">Passport</a>
+                <a class="navItem" id="navAbout" href="about.html">About Us</a>
+            </nav>
+        </div>
+        <div class="clear"></div>
+    </header>
+    <section id="content">
+        <section id="pageTitle" >Registration</section>
+        <section id="pageContent">
+        <article>
+            <div class="articleTitle">招生時間</div>
+            <div class="articleContent regInfo">
+                正取者需於6/26前繳交保證金1000元<span class="commentStyle">（保證金將於全程參加後全額退還）</span><br>
+                候補成功者於6/27公布，6/30前繳費<br>
+                繳費資訊會以報名時填寫的聯絡信箱通知<br>
+                7/1公布分組名單於網站<br>
+                <br>
+                關於繳款問題，歡迎寄信至 shuangyu@openhci.com<br>
+                其他問題，歡迎寄信至 hideys@openhci.com
+            </div>
+        </article>
+        <article>
+            <div class="articleTitle">OpenHCI Passport</div>
+            <div class="articleContent">
+                為服務無法全程參與工作坊 而放棄或來不及報名的同學們<br>
+                我們開放其中7場演講 提供持有OpenHCI Passport的學員自由參加<br>
+                並只酌收茶水與場地清潔費<br>
+                詳細資訊請參考 <a href="passport.html">OpenHCI Passport</a>
+            </div>
+        </article>
+        <article>
+            <div class="articleTitle">學員分組名單</div>
+            <div class="articleContent" style="width: 100%; margin-top: 15px;">
+                <!-- {% for team in teamList %} -->
+                <div class="teamTablePanel">
+                    <table class="teamTable">
+                        <tr class="leader">
+                            <td>蔡雙伃</td>
+                            <td>台科大工設所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林自均</td>
+                            <td>台大資工系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林書漾</td>
+                            <td>台大網媒所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>高新綠</td>
+                            <td>台大網媒所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>廖英棋</td>
+                            <td>台大心理系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>李昀臻</td>
+                            <td>師大物理所畢</td>
+                        </tr>
+                        <tr class="member">
+                            <td>許宏賓</td>
+                            <td>交大建築所</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="teamTablePanel">
+                    <table class="teamTable">
+                        <tr class="leader">
+                            <td>黃怡靜</td>
+                            <td>台大網媒所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>郭冠宏</td>
+                            <td>台大資工系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>菲爾德</td>
+                            <td>台大電機所 (CS組)</td>
+                        </tr>
+                        <tr class="member">
+                            <td>何信億</td>
+                            <td>台大資工所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>邱鈴媛</td>
+                            <td>台科大工設所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林逸辰</td>
+                            <td>台大Global MBA</td>
+                        </tr>
+                        <tr class="member">
+                            <td>范惠婷</td>
+                            <td>世新傳播管理所</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="teamTablePanel">
+                    <table class="teamTable">
+                        <tr class="leader">
+                            <td>蕭喬尹</td>
+                            <td>台大資工所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>張明旭</td>
+                            <td>台大網媒所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林玉芯</td>
+                            <td>台大資管所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林岑縈</td>
+                            <td>台科大工設所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>黃聿凱</td>
+                            <td>台大電子所(EDA)</td>
+                        </tr>
+                        <tr class="member">
+                            <td>施宛妤</td>
+                            <td>台科大工設商設系</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="teamTablePanel">
+                    <table class="teamTable">
+                        <tr class="leader">
+                            <td>黃大源</td>
+                            <td>台大網媒所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>陳亭汝</td>
+                            <td>台大資工系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>楊勝傑</td>
+                            <td>台大資工所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林冠宇</td>
+                            <td>台大資工所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>蔡孟璇</td>
+                            <td>台大心理系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林韻嘉</td>
+                            <td>台科大工設所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>鄭群萌</td>
+                            <td>台科大工設商設系</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- {% if forloop.counter == 4 %} -->
+                <div class="clear"></div>
+                <!-- {% endif %} -->
+                <!-- {% endfor %} -->
+                <div class="teamTablePanel">
+                    <table class="teamTable">
+                        <tr class="leader">
+                            <td>蔡典哲</td>
+                            <td>台大網媒所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林憲駿</td>
+                            <td>師大資工所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>余士元</td>
+                            <td>台大資工系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>高鈞雅</td>
+                            <td>台科大工設商設系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>黃瀞瑩</td>
+                            <td>台大圖資所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>崔恩銓</td>
+                            <td>台科大工設所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>江欣倩</td>
+                            <td>台大資工所</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="teamTablePanel">
+                    <table class="teamTable">
+                        <tr class="leader">
+                            <td>蘇兆懷</td>
+                            <td>台大資管所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林君轂</td>
+                            <td>台大資工系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>李良一</td>
+                            <td>中央資工系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>許婷婷</td>
+                            <td>台科大工設所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>駱豊儒</td>
+                            <td>台科大資設所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>丁建文</td>
+                            <td>台大資工所</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="teamTablePanel">
+                    <table class="teamTable">
+                        <tr class="leader">
+                            <td>李泓其</td>
+                            <td>台大資工所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>蕭方儀</td>
+                            <td>台大資工系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林宏祥</td>
+                            <td>台大網媒所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>吳義誠</td>
+                            <td>台科大工設所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>陳泳勳</td>
+                            <td>台科大工設所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>黃莉婷</td>
+                            <td>台大資工所</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="teamTablePanel">
+                    <table class="teamTable">
+                        <tr class="leader">
+                            <td>何宇傑</td>
+                            <td>台大資工所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>何柏樟</td>
+                            <td>台大資工系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林宇軒</td>
+                            <td>台大工科海洋所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>黃凱蘭</td>
+                            <td>台科大工設所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>朱庭萱</td>
+                            <td>台大心理系</td>
+                        </tr>
+                        <tr class="member">
+                            <td>鄭明郡</td>
+                            <td>中教大數位內容所</td>
+                        </tr>
+                        <tr class="member">
+                            <td>林君達</td>
+                            <td>台大資工所</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </article>
+        </section>
+        <div class="clear"></div>
+    </section>
+    <div class="clear"></div>
+    <section id="fbLike">
+        <div id="fb-root"></div>
+        <script src="http://connect.facebook.net/en_US/all.js#appId=167647816627855&amp;xfbml=1"></script>
+        <fb:like href="http://www.openhci.com/" send="true" width="600" show_faces="false" font="Lato"></fb:like>
+    </section>
+    <footer>
+        Copyright &copy; 2011 OpenHCI. All Rights Reserved. | <a href="a">Contact us</a><br>
+        <span id="browserHint">Do you want to try <a href="http://www.apple.com/safari" target="_blank">Safari</a> or <a href="http://www.google.com/chrome" target="_blank">Chrome?</a></span>
+    </footer>
+</body>
+</html>
